@@ -1,0 +1,23 @@
+{
+    "name": "malacode/social_stream",
+    "description": "",
+    "keywords": ["framework", "laravel", "lavalite", "SocialStream"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Jefferson Villanueva",
+            "email": "aj_villanueva@shadowsonawall.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Malacode\\SocialStream\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
