@@ -1,4 +1,4 @@
-This is a Laravel 5 package that provides social_stream management facility for lavalite framework.
+This is a Laravel 5 package that provides social_stream management facility for laravel framework.
 
 ## Installation
 
@@ -51,4 +51,11 @@ Publish admin views only if it is necessary.
 
 ## Usage
 
+## Dependencies
+
+   https://packagist.org/packages/illuminate/html#v5.0.0
+
+## License
+
+   Purchase the Regular License at https://codecanyon.net/item/jquery-social-stream/2103997
 

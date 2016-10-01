@@ -3,11 +3,10 @@
 namespace Malacode\SocialStream\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Lavalite\Filer\FilerTrait;
 
 class SocialWallCategory extends Model
 {
-    use FilerTrait, SoftDeletes;
+    use SoftDeletes;
 
     protected $dates = ['deleted_at'];
 

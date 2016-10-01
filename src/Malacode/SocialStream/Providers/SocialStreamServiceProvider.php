@@ -86,8 +86,8 @@ class SocialStreamServiceProvider extends ServiceProvider
         // Publish language files
         $this->publishes([__DIR__.'/../../../../resources/lang' => base_path('resources/lang/vendor/courier')], 'lang');
         
-        // Publish language files
-        $this->publishes([__DIR__.'/../../../../resources/assets' => base_path('resources/views/vendor/social_stream/assets')], 'assets');
+        // Publish JS CSS needed for current app
+        $this->publishes([__DIR__.'/../../../../resources/assets' => base_path('public/vendor/social_stream')], 'assets');
 
         // Publish migrations
         $this->publishes([__DIR__.'/../../../../database/migrations/' => base_path('database/migrations')], 'migrations');

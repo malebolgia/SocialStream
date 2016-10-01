@@ -1,7 +1,7 @@
 {
     "name": "malacode/social_stream",
-    "description": "",
-    "keywords": ["framework", "laravel", "lavalite", "SocialStream"],
+    "description": "Social Stream for Laravel please buy JS/CSS License at codecanyon.",
+    "keywords": ["framework", "laravel", "SocialStream"],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "illuminate/html": "5.*"
     },
     "autoload": {
         "classmap": [
